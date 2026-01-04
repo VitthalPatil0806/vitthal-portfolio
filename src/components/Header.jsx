@@ -1,6 +1,6 @@
 import GlassCard from "./GlassCard";
 import { resume } from "../data/resume";
-import profileImg from "../assets/profile.jpeg";
+import profileImg from "../assets/Profile.jpeg";
 
 export default function Header() {
   return (
