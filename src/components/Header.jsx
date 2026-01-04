@@ -1,6 +1,7 @@
 import GlassCard from "./GlassCard";
 import { resume } from "../data/resume";
 import profileImg from "../assets/Profile.jpeg";
+import cv from "../assets/Vitthal-Resume.pdf";
 
 export default function Header() {
   return (
@@ -54,7 +55,7 @@ export default function Header() {
   </a>
 
 <a
-  href="/Vitthal_Patil_Resume.pdf"
+  href={cv}
   download
   className="
     inline-flex items-center
